@@ -42,6 +42,13 @@
         "env": {
             "SERENA_PATH": "${SERENA_PATH}"
         }
+    },
+    "deepl": {
+      "command": "bunx",
+      "args": ["deepl-mcp-server"],
+      "env": {
+        "DEEPL_API_KEY": "${DEEPL_API_KEY}"
+      }
     }
   }
 }
